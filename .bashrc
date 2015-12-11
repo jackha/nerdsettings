@@ -201,13 +201,7 @@ alias gci="git commit"
 alias gadd="git add"
 alias gpush="git push"
 alias gpull="git pull"
-
-# 3Di
-export HOME=/home/jack
-export TDIROOT=$HOME/3di-subgrid
-export NETCDFROOT=$HOME/netcdf/4.2
-export PATH=$NETCDFROOT/bin:$PATH
-export LD_LIBRARY_PATH=$NETCDFROOT/lib:$LD_LIBRARY_PATH
+alias gdiff="git diff"
 
 # Other
 
